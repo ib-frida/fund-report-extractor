@@ -1,0 +1,20 @@
+# Reports to extract. Pick 3-5 private-equity fund performance reports from
+# 2-3 publishers (e.g. public pension funds) so layouts differ.
+# Check each publisher's terms before committing PDFs; data/raw/ is git-ignored.
+#
+# Fields:
+#   id      short unique id, used in file names and results
+#   url     direct link to the PDF
+#   unit    currency/scale as printed in the table, e.g. "USD millions"
+#   pages   optional list of 1-based pages that hold the performance table
+#   columns optional {column index: schema field} if header matching fails
+
+reports:
+  - id: publisher-a-2025
+    url: TODO-paste-direct-pdf-link
+    unit: USD
+    pages: []
+  - id: publisher-b-2025
+    url: TODO-paste-direct-pdf-link
+    unit: USD
+    pages: []

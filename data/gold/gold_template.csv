@@ -1,0 +1,2 @@
+report_id,page,fund_name,vintage_year,commitment,contributed,distributed,nav,net_irr,tvpi,dpi,unit,is_total_row,source
+publisher-a-2025,3,Example Partners Fund IV,2019,50000000,42000000,18000000,39000000,0.142,1.36,0.43,USD,false,gold
